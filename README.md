@@ -1,7 +1,7 @@
 # PARTICLE BENCHMARKING FRAMEWORK
 
-## Installation
-`VC_redist_x64` is expected to be installed. Otherwise, the program is _ready-as-is_.
+## Building
+Setup your CMake tool and execute the `CMakeLists.txt`. To install all dependencies needed, run the `d_win_install.bat`.
 
 ## Configurations files
 Configuration files describe scenes which act as independent tests. Config files define how each test scene should be carried out. There are two types of config files:
