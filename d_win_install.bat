@@ -1,0 +1,1 @@
+start /wait vcpkg install glfw3 opengl glew freetype tiff assimp boost-filesystem boost-property-tree
