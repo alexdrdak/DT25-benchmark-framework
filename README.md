@@ -180,26 +180,5 @@ Benchmark results are written to the `out/csv` folder. If this folder does not e
 
 Logs are provided in `*.csv` format and hold present data about milliseconds per frame, samples per frame and objects that were passed through the pipeline.
 
-## Web Interface
-Application comes with optional browser interface for running and managing tests. It is disabled and not installed by default. 
-See the following for details on how to install, control and use the Web Interface (WI for short). Please note that
-[Node.js](https://nodejs.org/en) package is required to run the WI. The WI is meant to run locally, but sets no barriers on
-user decision to run the application on a different machine, being operated remotely by this WI. This is but on one's own risk, as WI was 
-not developed with security concerns in mind.
-
-#### Installation
-The WI is to be installed automatically by running the `./setup_wi.sh` or `./setup_wi.bat` (depending on the host OS) from
-the `web_interface` directory. In case automatic scripts fail, user is still able to execute the installation manually:
-1. Ensure the package.json is present. Then, run the `npm install` command from respective directory.
-2. From the `/public` directory, link the `out` and `scene_config` directories there.
-
-That's all there is to the WI installation. To access the WI, open the link to the page (node.js usually prints this into the command line) in the browser of your choice.
-
-#### Running the WI
-Users has his liberty to run the local `node.js` server however he wants, though we do recommend running `node server.js` from the
-`web_interface` directory and then stopping by `Ctrl+C` whenever user wants to stop the application. This approach 
-prevents the need to keep/search the PID for the latter stopping of the process. 
-
-
 ---
 Alexander Drdak, axdrdak@students.zcu.cz, 2024/2025
